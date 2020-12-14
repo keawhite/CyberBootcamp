@@ -8,10 +8,10 @@ These files have been tested and used to generate a live ELK deployment on Azure
   All in one:
   - [cloud-setup.yml](https://github.com/keawhite/CyberBootcamp/blob/main/ELK_project/Ansible/cloud-setup.yml)  
 Separate portions:
-  - elk-setup.yml
-  - web-setup.yml
-  - filebeat-playbook.yml
-  - metricbeat-playbook.yml
+  - [elk-setup.yml](https://github.com/keawhite/CyberBootcamp/blob/main/ELK_project/Ansible/elk-setup.yml)
+  - [web-setup.yml](https://github.com/keawhite/CyberBootcamp/blob/main/ELK_project/Ansible/web-setup.yml)
+  - [filebeat-playbook.yml](https://github.com/keawhite/CyberBootcamp/blob/main/ELK_project/Ansible/filebeat-playbook.yml)
+  - [metricbeat-playbook.yml](https://github.com/keawhite/CyberBootcamp/blob/main/ELK_project/Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
