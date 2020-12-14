@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the cloud-setup.yml file may be used to install only certain pieces of it, such as Filebeat.  
   All in one:
-  - cloud-setup.yml  
+  - [cloud-setup.yml](https://raw.githubusercontent.com/keawhite/CyberBootcamp/main/ELK_project/Ansible/cloud-setup.yml?token=AQWV3VNQ4YEROIHT3FS4QVS723DD6)  
 Separate portions:
   - elk-setup.yml
   - web-setup.yml
@@ -98,11 +98,11 @@ SSH into the control node and follow the steps below:
 
 
 #Download the playbook  
-curl <link>
+`curl https://raw.githubusercontent.com/keawhite/CyberBootcamp/main/ELK_project/Ansible/cloud-setup.yml?token=AQWV3VNQ4YEROIHT3FS4QVS723DD6`  
 #Move the playbook to ansible directory  
-mv <working directory>/cloud-setup.yml /etc/ansible  
+`mv <working directory>/cloud-setup.yml /etc/ansible`  
 #Update the hosts file and playbook for specific needs  
-nano hosts  
-nano cloud-setup.yml  
+`nano hosts`  
+`nano cloud-setup.yml`  
 #Run the play  
-ansible-playbook cloud-setup.yml  
+`ansible-playbook cloud-setup.yml`  
