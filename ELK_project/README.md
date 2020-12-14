@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the cloud-setup.yml file may be used to install only certain pieces of it, such as Filebeat.  
   All in one:
-  - [cloud-setup.yml](https://raw.githubusercontent.com/keawhite/CyberBootcamp/main/ELK_project/Ansible/cloud-setup.yml?token=AQWV3VNQ4YEROIHT3FS4QVS723DD6)  
+  - [cloud-setup.yml](https://github.com/keawhite/CyberBootcamp/blob/main/ELK_project/Ansible/cloud-setup.yml)  
 Separate portions:
   - elk-setup.yml
   - web-setup.yml
