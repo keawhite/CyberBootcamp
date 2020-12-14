@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Cloud Network Diagram](/Diagrams/ELK_Diagram.png)
+![Cloud Network Diagram](Images/ELK_Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the cloud-setup.yml file may be used to install only certain pieces of it, such as Filebeat.  
   All in one:
@@ -97,12 +97,12 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to http://<ELK server public IP>/app/kibana to check that the installation worked as expected.
 
 
-#Download the playbook
+#Download the playbook  
 curl <link>
-#Move the playbook to ansible directory
-mv <working directory>/cloud-setup.yml /etc/ansible
-#Update the hosts file and playbook for specific needs
-nano hosts
-nano cloud-setup.yml
-#Run the play
-ansible-playbook cloud-setup.yml
+#Move the playbook to ansible directory  
+mv <working directory>/cloud-setup.yml /etc/ansible  
+#Update the hosts file and playbook for specific needs  
+nano hosts  
+nano cloud-setup.yml  
+#Run the play  
+ansible-playbook cloud-setup.yml  
