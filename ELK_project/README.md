@@ -2,11 +2,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Cloud Network Diagram](Cyberbootcamp/Diagrams/Cloud_Diagram.png)
+![Cloud Network Diagram](/Diagrams/ELK_Diagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the cloud-setup.yml file may be used to install only certain pieces of it, such as Filebeat.
-All in one:
-  - cloud-setup.yml
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the cloud-setup.yml file may be used to install only certain pieces of it, such as Filebeat.  
+  All in one:
+  - cloud-setup.yml  
 Separate portions:
   - elk-setup.yml
   - web-setup.yml
